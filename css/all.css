@@ -1,0 +1,171 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrap{
+    width: 1024px;
+    margin: 0 auto;
+}
+.header{
+    background: url(../img/Hero.png);
+    width: 1024px;
+    height: 380px;
+}
+.header select{
+    margin-left: 400px;
+    margin-top: 150px;
+    background-color:white;
+    opacity: 0.6;
+    width:200px;
+    height: 30px;
+}
+
+.box{
+    position: relative;
+    
+    margin-top: 80px;
+}
+.update li{
+    display: inline;
+    float: left;
+    border:1px solid gray;
+    box-shadow: 3px 4px 3px 0px rgba(0,0,0,0.16);
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+.update img{
+    width: 400px;
+    height: 200px;
+}
+.box p{
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+.box2 h2{
+    margin-top:50px;
+    text-align: center;
+    color: red;
+    font-size: 40px;
+    font-family: "標楷體";
+}
+.box1{
+    background: white;
+    width: 500px;
+    box-shadow: 3px 4px 3px 0px rgba(0,0,0,0.16);
+    margin-left: 200px;
+    margin-top: 180px;
+    border: 1px solid gray;
+}
+.box1 p {
+    margin: 10px;
+}
+.box1 .btn{
+    margin: 20px;
+   
+}
+.box1 .btn1{
+    background: rgb(209, 138, 209);
+    color: white;
+    width:100px;
+    height:30px;
+}
+.box1 .btn2{
+    background: rgb(238, 216, 177);
+    color: white;
+    width:100px;
+    height:30px;
+}
+
+.box1 .btn3{
+    background: rgb(226, 226, 169);
+    color: white;
+    width:100px;
+    height:30px;
+}
+.box1 .btn4{
+    background: rgb(192, 192, 241);
+    color: white;
+    width:100px;
+    height:30px;
+}
+.box3{
+    width: 900px;
+    height: 12px;
+    border-bottom: 1px dashed #559AC8;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.box3 img{
+    margin-left: 430px;
+}
+.icon1{
+    background: url(../img/icons_pin.png) no-repeat;
+}
+.icon2{
+    background: url(../img/icons_phone.png) no-repeat;
+}
+.icon3{
+    background: url(../img/icons_clock.png) no-repeat;
+}
+.footer{
+    background: #559AC8;
+    position: fixed;
+    bottom: 100px;
+    left:50px;
+    color: aliceblue;
+    font-family: "標楷體";
+}
+.footer p{
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+.footer .p{
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    color:wheat;
+}
